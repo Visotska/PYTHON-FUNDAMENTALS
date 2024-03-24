@@ -16,4 +16,3 @@ for order in range(number_of_orders):
     total_price += price
     print(f"The price for the coffee is: ${price:.2f}")
 print(f"Total: ${total_price:.2f}")
-
