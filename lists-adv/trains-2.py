@@ -26,6 +26,10 @@ def main():
 
     while True:
         command_input = input().split()
+
+        if not command_input:
+            continue
+
         command = command_input[0]
         args = list(map(int, command_input[1:]))
 
